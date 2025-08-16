@@ -10709,6 +10709,1278 @@
         {
             "name": "Zuriel's staff (bh)#Activated",
             "image": "Zuriel's_staff_(bh)#Activated.png"
+        },
+        {
+            "name": "3rd age bow",
+            "image": "3rd_age_bow.png"
+        },
+        {
+            "name": "3rd age felling axe",
+            "image": "3rd_age_felling_axe.png"
+        },
+        {
+            "name": "Abyssal bludgeon",
+            "image": "Abyssal_bludgeon.png"
+        },
+        {
+            "name": "Adamant 2h sword",
+            "image": "Adamant_2h_sword.png"
+        },
+        {
+            "name": "Adamant claws",
+            "image": "Adamant_claws.png"
+        },
+        {
+            "name": "Adamant felling axe",
+            "image": "Adamant_felling_axe.png"
+        },
+        {
+            "name": "Adamant halberd",
+            "image": "Adamant_halberd.png"
+        },
+        {
+            "name": "Adamant spear#(kp)",
+            "image": "Adamant_spear#(kp).png"
+        },
+        {
+            "name": "Adamant spear#(p)",
+            "image": "Adamant_spear#(p).png"
+        },
+        {
+            "name": "Adamant spear#(p+)",
+            "image": "Adamant_spear#(p+).png"
+        },
+        {
+            "name": "Adamant spear#(p++)",
+            "image": "Adamant_spear#(p++).png"
+        },
+        {
+            "name": "Adamant spear#(unp)",
+            "image": "Adamant_spear#(unp).png"
+        },
+        {
+            "name": "Ancient godsword",
+            "image": "Ancient_godsword.png"
+        },
+        {
+            "name": "Anger spear",
+            "image": "Anger_spear.png"
+        },
+        {
+            "name": "Armadyl godsword",
+            "image": "Armadyl_godsword.png"
+        },
+        {
+            "name": "Armadyl godsword (deadman)",
+            "image": "Armadyl_godsword_(deadman).png"
+        },
+        {
+            "name": "Armadyl godsword (or)",
+            "image": "Armadyl_godsword_(or).png"
+        },
+        {
+            "name": "Bandos godsword",
+            "image": "Bandos_godsword.png"
+        },
+        {
+            "name": "Bandos godsword (or)",
+            "image": "Bandos_godsword_(or).png"
+        },
+        {
+            "name": "Barrelchest anchor (bh)",
+            "image": "Barrelchest_anchor_(bh).png"
+        },
+        {
+            "name": "Barrelchest anchor#Broken",
+            "image": "Barrelchest_anchor#Broken.png"
+        },
+        {
+            "name": "Barrelchest anchor#Fixed",
+            "image": "Barrelchest_anchor#Fixed.png"
+        },
+        {
+            "name": "Beach boxing gloves#Pink",
+            "image": "Beach_boxing_gloves#Pink.png"
+        },
+        {
+            "name": "Beach boxing gloves#Yellow",
+            "image": "Beach_boxing_gloves#Yellow.png"
+        },
+        {
+            "name": "Birthday cake",
+            "image": "Birthday_cake.png"
+        },
+        {
+            "name": "Black 2h sword",
+            "image": "Black_2h_sword.png"
+        },
+        {
+            "name": "Black claws",
+            "image": "Black_claws.png"
+        },
+        {
+            "name": "Black felling axe",
+            "image": "Black_felling_axe.png"
+        },
+        {
+            "name": "Black halberd",
+            "image": "Black_halberd.png"
+        },
+        {
+            "name": "Black salamander",
+            "image": "Black_salamander.png"
+        },
+        {
+            "name": "Black spear#(kp)",
+            "image": "Black_spear#(kp).png"
+        },
+        {
+            "name": "Black spear#(p)",
+            "image": "Black_spear#(p).png"
+        },
+        {
+            "name": "Black spear#(p+)",
+            "image": "Black_spear#(p+).png"
+        },
+        {
+            "name": "Black spear#(p++)",
+            "image": "Black_spear#(p++).png"
+        },
+        {
+            "name": "Black spear#(unp)",
+            "image": "Black_spear#(unp).png"
+        },
+        {
+            "name": "Blazing blowpipe#Charged",
+            "image": "Blazing_blowpipe#Charged.png"
+        },
+        {
+            "name": "Blazing blowpipe#Empty",
+            "image": "Blazing_blowpipe#Empty.png"
+        },
+        {
+            "name": "Blue moon spear",
+            "image": "Blue_moon_spear.png"
+        },
+        {
+            "name": "Bone shortbow",
+            "image": "Bone_shortbow.png"
+        },
+        {
+            "name": "Bow of faerdhinen (c) (Amlodd)",
+            "image": "Bow_of_faerdhinen_(c)_(Amlodd).png"
+        },
+        {
+            "name": "Bow of faerdhinen (c) (Cadarn)",
+            "image": "Bow_of_faerdhinen_(c)_(Cadarn).png"
+        },
+        {
+            "name": "Bow of faerdhinen (c) (Crwys)",
+            "image": "Bow_of_faerdhinen_(c)_(Crwys).png"
+        },
+        {
+            "name": "Bow of faerdhinen (c) (Iorwerth)",
+            "image": "Bow_of_faerdhinen_(c)_(Iorwerth).png"
+        },
+        {
+            "name": "Bow of faerdhinen (c) (Ithell)",
+            "image": "Bow_of_faerdhinen_(c)_(Ithell).png"
+        },
+        {
+            "name": "Bow of faerdhinen (c) (Meilyr)",
+            "image": "Bow_of_faerdhinen_(c)_(Meilyr).png"
+        },
+        {
+            "name": "Bow of faerdhinen (c) (Trahaearn)",
+            "image": "Bow_of_faerdhinen_(c)_(Trahaearn).png"
+        },
+        {
+            "name": "Boxing gloves#Blue",
+            "image": "Boxing_gloves#Blue.png"
+        },
+        {
+            "name": "Boxing gloves#Red",
+            "image": "Boxing_gloves#Red.png"
+        },
+        {
+            "name": "Bronze 2h sword",
+            "image": "Bronze_2h_sword.png"
+        },
+        {
+            "name": "Bronze claws",
+            "image": "Bronze_claws.png"
+        },
+        {
+            "name": "Bronze felling axe",
+            "image": "Bronze_felling_axe.png"
+        },
+        {
+            "name": "Bronze halberd",
+            "image": "Bronze_halberd.png"
+        },
+        {
+            "name": "Bronze spear#(kp)",
+            "image": "Bronze_spear#(kp).png"
+        },
+        {
+            "name": "Bronze spear#(p)",
+            "image": "Bronze_spear#(p).png"
+        },
+        {
+            "name": "Bronze spear#(p+)",
+            "image": "Bronze_spear#(p+).png"
+        },
+        {
+            "name": "Bronze spear#(p++)",
+            "image": "Bronze_spear#(p++).png"
+        },
+        {
+            "name": "Bronze spear#(unp)",
+            "image": "Bronze_spear#(unp).png"
+        },
+        {
+            "name": "Bronze speedrun trophy",
+            "image": "Bronze_speedrun_trophy.png"
+        },
+        {
+            "name": "Burning claws",
+            "image": "Burning_claws.png"
+        },
+        {
+            "name": "Butler's tray",
+            "image": "Butler's_tray.png"
+        },
+        {
+            "name": "Camphor blowpipe",
+            "image": "Camphor_blowpipe.png"
+        },
+        {
+            "name": "Cedar blowpipe",
+            "image": "Cedar_blowpipe.png"
+        },
+        {
+            "name": "Clan vexillum#Black",
+            "image": "Clan_vexillum#Black.png"
+        },
+        {
+            "name": "Clan vexillum#Blue",
+            "image": "Clan_vexillum#Blue.png"
+        },
+        {
+            "name": "Clan vexillum#Green",
+            "image": "Clan_vexillum#Green.png"
+        },
+        {
+            "name": "Clan vexillum#Light_blue",
+            "image": "Clan_vexillum#Light_blue.png"
+        },
+        {
+            "name": "Clan vexillum#Orange",
+            "image": "Clan_vexillum#Orange.png"
+        },
+        {
+            "name": "Clan vexillum#Purple",
+            "image": "Clan_vexillum#Purple.png"
+        },
+        {
+            "name": "Clan vexillum#Red",
+            "image": "Clan_vexillum#Red.png"
+        },
+        {
+            "name": "Clan vexillum#Yellow",
+            "image": "Clan_vexillum#Yellow.png"
+        },
+        {
+            "name": "Clueless scroll",
+            "image": "Clueless_scroll.png"
+        },
+        {
+            "name": "Colossal blade",
+            "image": "Colossal_blade.png"
+        },
+        {
+            "name": "Comp ogre bow",
+            "image": "Comp_ogre_bow.png"
+        },
+        {
+            "name": "Crate with zanik",
+            "image": "Crate_with_zanik.png"
+        },
+        {
+            "name": "Craw's bow#Charged",
+            "image": "Craw's_bow#Charged.png"
+        },
+        {
+            "name": "Craw's bow#Uncharged",
+            "image": "Craw's_bow#Uncharged.png"
+        },
+        {
+            "name": "Crystal bow#Active",
+            "image": "Crystal_bow#Active.png"
+        },
+        {
+            "name": "Crystal felling axe#Active",
+            "image": "Crystal_felling_axe#Active.png"
+        },
+        {
+            "name": "Crystal felling axe#Inactive",
+            "image": "Crystal_felling_axe#Inactive.png"
+        },
+        {
+            "name": "Crystal halberd#Active",
+            "image": "Crystal_halberd#Active.png"
+        },
+        {
+            "name": "Cursed banana",
+            "image": "Cursed_banana.png"
+        },
+        {
+            "name": "Cursed goblin bow",
+            "image": "Cursed_goblin_bow.png"
+        },
+        {
+            "name": "Dark bow (bh)",
+            "image": "Dark_bow_(bh).png"
+        },
+        {
+            "name": "Dark bow (deadman)",
+            "image": "Dark_bow_(deadman).png"
+        },
+        {
+            "name": "Dark bow#Blue",
+            "image": "Dark_bow#Blue.png"
+        },
+        {
+            "name": "Dark bow#Green",
+            "image": "Dark_bow#Green.png"
+        },
+        {
+            "name": "Dark bow#Regular",
+            "image": "Dark_bow#Regular.png"
+        },
+        {
+            "name": "Dark bow#White",
+            "image": "Dark_bow#White.png"
+        },
+        {
+            "name": "Dark bow#Yellow",
+            "image": "Dark_bow#Yellow.png"
+        },
+        {
+            "name": "Dharok's greataxe#(broken)",
+            "image": "Dharok's_greataxe#(broken).png"
+        },
+        {
+            "name": "Dharok's greataxe#100",
+            "image": "Dharok's_greataxe#100.png"
+        },
+        {
+            "name": "Dharok's greataxe#25",
+            "image": "Dharok's_greataxe#25.png"
+        },
+        {
+            "name": "Dharok's greataxe#50",
+            "image": "Dharok's_greataxe#50.png"
+        },
+        {
+            "name": "Dharok's greataxe#75",
+            "image": "Dharok's_greataxe#75.png"
+        },
+        {
+            "name": "Dharok's greataxe#Undamaged",
+            "image": "Dharok's_greataxe#Undamaged.png"
+        },
+        {
+            "name": "Diamond speedrun trophy",
+            "image": "Diamond_speedrun_trophy.png"
+        },
+        {
+            "name": "Dinh's blazing bulwark",
+            "image": "Dinh's_blazing_bulwark.png"
+        },
+        {
+            "name": "Dinh's bulwark",
+            "image": "Dinh's_bulwark.png"
+        },
+        {
+            "name": "Dragon 2h sword",
+            "image": "Dragon_2h_sword.png"
+        },
+        {
+            "name": "Dragon 2h sword (cr)",
+            "image": "Dragon_2h_sword_(cr).png"
+        },
+        {
+            "name": "Dragon claws",
+            "image": "Dragon_claws.png"
+        },
+        {
+            "name": "Dragon claws (cr)",
+            "image": "Dragon_claws_(cr).png"
+        },
+        {
+            "name": "Dragon felling axe",
+            "image": "Dragon_felling_axe.png"
+        },
+        {
+            "name": "Dragon halberd",
+            "image": "Dragon_halberd.png"
+        },
+        {
+            "name": "Dragon halberd (cr)",
+            "image": "Dragon_halberd_(cr).png"
+        },
+        {
+            "name": "Dragon spear (cr)#(p)",
+            "image": "Dragon_spear_(cr)#(p).png"
+        },
+        {
+            "name": "Dragon spear (cr)#(p+)",
+            "image": "Dragon_spear_(cr)#(p+).png"
+        },
+        {
+            "name": "Dragon spear (cr)#(p++)",
+            "image": "Dragon_spear_(cr)#(p++).png"
+        },
+        {
+            "name": "Dragon spear (cr)#(unp)",
+            "image": "Dragon_spear_(cr)#(unp).png"
+        },
+        {
+            "name": "Dragon spear#(kp)",
+            "image": "Dragon_spear#(kp).png"
+        },
+        {
+            "name": "Dragon spear#(p)",
+            "image": "Dragon_spear#(p).png"
+        },
+        {
+            "name": "Dragon spear#(p+)",
+            "image": "Dragon_spear#(p+).png"
+        },
+        {
+            "name": "Dragon spear#(p++)",
+            "image": "Dragon_spear#(p++).png"
+        },
+        {
+            "name": "Dragon spear#(unp)",
+            "image": "Dragon_spear#(unp).png"
+        },
+        {
+            "name": "Dual macuahuitl",
+            "image": "Dual_macuahuitl.png"
+        },
+        {
+            "name": "Dual sai",
+            "image": "Dual_sai.png"
+        },
+        {
+            "name": "Earthbound tecpatl",
+            "image": "Earthbound_tecpatl.png"
+        },
+        {
+            "name": "Echo venator bow#Charged",
+            "image": "Echo_venator_bow#Charged.png"
+        },
+        {
+            "name": "Echo venator bow#Uncharged",
+            "image": "Echo_venator_bow#Uncharged.png"
+        },
+        {
+            "name": "Eclipse atlatl",
+            "image": "Eclipse_atlatl.png"
+        },
+        {
+            "name": "Elder maul",
+            "image": "Elder_maul.png"
+        },
+        {
+            "name": "Elder maul (or)",
+            "image": "Elder_maul_(or).png"
+        },
+        {
+            "name": "Fixed device",
+            "image": "Fixed_device.png"
+        },
+        {
+            "name": "Gadderhammer",
+            "image": "Gadderhammer.png"
+        },
+        {
+            "name": "Giant boulder",
+            "image": "Giant_boulder.png"
+        },
+        {
+            "name": "Giant bronze dagger",
+            "image": "Giant_bronze_dagger.png"
+        },
+        {
+            "name": "Giant easter egg",
+            "image": "Giant_easter_egg.png"
+        },
+        {
+            "name": "Giant present",
+            "image": "Giant_present.png"
+        },
+        {
+            "name": "Giant stopwatch",
+            "image": "Giant_stopwatch.png"
+        },
+        {
+            "name": "Gilded 2h sword",
+            "image": "Gilded_2h_sword.png"
+        },
+        {
+            "name": "Gilded spade",
+            "image": "Gilded_spade.png"
+        },
+        {
+            "name": "Gilded spear",
+            "image": "Gilded_spear.png"
+        },
+        {
+            "name": "Glacial temotli",
+            "image": "Glacial_temotli.png"
+        },
+        {
+            "name": "Goblin paint cannon",
+            "image": "Goblin_paint_cannon.png"
+        },
+        {
+            "name": "Gold speedrun trophy",
+            "image": "Gold_speedrun_trophy.png"
+        },
+        {
+            "name": "Granite maul (ornate handle)#Clamp",
+            "image": "Granite_maul_(ornate_handle)#Clamp.png"
+        },
+        {
+            "name": "Granite maul (ornate handle)#Normal",
+            "image": "Granite_maul_(ornate_handle)#Normal.png"
+        },
+        {
+            "name": "Granite maul#Clamp",
+            "image": "Granite_maul#Clamp.png"
+        },
+        {
+            "name": "Granite maul#Normal",
+            "image": "Granite_maul#Normal.png"
+        },
+        {
+            "name": "Gregg's eastdoor",
+            "image": "Gregg's_eastdoor.png"
+        },
+        {
+            "name": "Guthan's warspear#(broken)",
+            "image": "Guthan's_warspear#(broken).png"
+        },
+        {
+            "name": "Guthan's warspear#100",
+            "image": "Guthan's_warspear#100.png"
+        },
+        {
+            "name": "Guthan's warspear#25",
+            "image": "Guthan's_warspear#25.png"
+        },
+        {
+            "name": "Guthan's warspear#50",
+            "image": "Guthan's_warspear#50.png"
+        },
+        {
+            "name": "Guthan's warspear#75",
+            "image": "Guthan's_warspear#75.png"
+        },
+        {
+            "name": "Guthan's warspear#Undamaged",
+            "image": "Guthan's_warspear#Undamaged.png"
+        },
+        {
+            "name": "Guthix mjolnir",
+            "image": "Guthix_mjolnir.png"
+        },
+        {
+            "name": "Heavy ballista",
+            "image": "Heavy_ballista.png"
+        },
+        {
+            "name": "Heavy ballista (or)",
+            "image": "Heavy_ballista_(or).png"
+        },
+        {
+            "name": "Heavy casket",
+            "image": "Heavy_casket.png"
+        },
+        {
+            "name": "Hill giant club",
+            "image": "Hill_giant_club.png"
+        },
+        {
+            "name": "Holy scythe of vitur#Charged",
+            "image": "Holy_scythe_of_vitur#Charged.png"
+        },
+        {
+            "name": "Holy scythe of vitur#Uncharged",
+            "image": "Holy_scythe_of_vitur#Uncharged.png"
+        },
+        {
+            "name": "Humphrey Dumphrey#item",
+            "image": "Humphrey_Dumphrey#item.png"
+        },
+        {
+            "name": "Iron 2h sword",
+            "image": "Iron_2h_sword.png"
+        },
+        {
+            "name": "Iron claws",
+            "image": "Iron_claws.png"
+        },
+        {
+            "name": "Iron felling axe",
+            "image": "Iron_felling_axe.png"
+        },
+        {
+            "name": "Iron halberd",
+            "image": "Iron_halberd.png"
+        },
+        {
+            "name": "Iron spear#(kp)",
+            "image": "Iron_spear#(kp).png"
+        },
+        {
+            "name": "Iron spear#(p)",
+            "image": "Iron_spear#(p).png"
+        },
+        {
+            "name": "Iron spear#(p+)",
+            "image": "Iron_spear#(p+).png"
+        },
+        {
+            "name": "Iron spear#(p++)",
+            "image": "Iron_spear#(p++).png"
+        },
+        {
+            "name": "Iron spear#(unp)",
+            "image": "Iron_spear#(unp).png"
+        },
+        {
+            "name": "Ironwood blowpipe",
+            "image": "Ironwood_blowpipe.png"
+        },
+        {
+            "name": "Karil's crossbow#(broken)",
+            "image": "Karil's_crossbow#(broken).png"
+        },
+        {
+            "name": "Karil's crossbow#100",
+            "image": "Karil's_crossbow#100.png"
+        },
+        {
+            "name": "Karil's crossbow#25",
+            "image": "Karil's_crossbow#25.png"
+        },
+        {
+            "name": "Karil's crossbow#50",
+            "image": "Karil's_crossbow#50.png"
+        },
+        {
+            "name": "Karil's crossbow#75",
+            "image": "Karil's_crossbow#75.png"
+        },
+        {
+            "name": "Karil's crossbow#Undamaged",
+            "image": "Karil's_crossbow#Undamaged.png"
+        },
+        {
+            "name": "Katana",
+            "image": "Katana.png"
+        },
+        {
+            "name": "Larch blowpipe#Charged",
+            "image": "Larch_blowpipe#Charged.png"
+        },
+        {
+            "name": "Larch blowpipe#Empty",
+            "image": "Larch_blowpipe#Empty.png"
+        },
+        {
+            "name": "Large spade",
+            "image": "Large_spade.png"
+        },
+        {
+            "name": "Leaf-bladed spear",
+            "image": "Leaf-bladed_spear.png"
+        },
+        {
+            "name": "Light ballista",
+            "image": "Light_ballista.png"
+        },
+        {
+            "name": "Longbow",
+            "image": "Longbow.png"
+        },
+        {
+            "name": "Love crossbow",
+            "image": "Love_crossbow.png"
+        },
+        {
+            "name": "Magic comp bow",
+            "image": "Magic_comp_bow.png"
+        },
+        {
+            "name": "Magic longbow",
+            "image": "Magic_longbow.png"
+        },
+        {
+            "name": "Magic shortbow",
+            "image": "Magic_shortbow.png"
+        },
+        {
+            "name": "Magic shortbow (i)",
+            "image": "Magic_shortbow_(i).png"
+        },
+        {
+            "name": "Maple longbow",
+            "image": "Maple_longbow.png"
+        },
+        {
+            "name": "Maple shortbow",
+            "image": "Maple_shortbow.png"
+        },
+        {
+            "name": "Merfolk trident",
+            "image": "Merfolk_trident.png"
+        },
+        {
+            "name": "Mithril 2h sword",
+            "image": "Mithril_2h_sword.png"
+        },
+        {
+            "name": "Mithril claws",
+            "image": "Mithril_claws.png"
+        },
+        {
+            "name": "Mithril felling axe",
+            "image": "Mithril_felling_axe.png"
+        },
+        {
+            "name": "Mithril halberd",
+            "image": "Mithril_halberd.png"
+        },
+        {
+            "name": "Mithril spear#(kp)",
+            "image": "Mithril_spear#(kp).png"
+        },
+        {
+            "name": "Mithril spear#(p)",
+            "image": "Mithril_spear#(p).png"
+        },
+        {
+            "name": "Mithril spear#(p+)",
+            "image": "Mithril_spear#(p+).png"
+        },
+        {
+            "name": "Mithril spear#(p++)",
+            "image": "Mithril_spear#(p++).png"
+        },
+        {
+            "name": "Mithril spear#(unp)",
+            "image": "Mithril_spear#(unp).png"
+        },
+        {
+            "name": "Mystic cards",
+            "image": "Mystic_cards.png"
+        },
+        {
+            "name": "Noxious halberd",
+            "image": "Noxious_halberd.png"
+        },
+        {
+            "name": "Nunchaku",
+            "image": "Nunchaku.png"
+        },
+        {
+            "name": "Oak longbow",
+            "image": "Oak_longbow.png"
+        },
+        {
+            "name": "Oak shortbow",
+            "image": "Oak_shortbow.png"
+        },
+        {
+            "name": "Oddskull",
+            "image": "Oddskull.png"
+        },
+        {
+            "name": "Ogre bow",
+            "image": "Ogre_bow.png"
+        },
+        {
+            "name": "Orange salamander",
+            "image": "Orange_salamander.png"
+        },
+        {
+            "name": "Pet rock",
+            "image": "Pet_rock.png"
+        },
+        {
+            "name": "Platinum speedrun trophy",
+            "image": "Platinum_speedrun_trophy.png"
+        },
+        {
+            "name": "Preform",
+            "image": "Preform.png"
+        },
+        {
+            "name": "Protest banner",
+            "image": "Protest_banner.png"
+        },
+        {
+            "name": "Pugel",
+            "image": "Pugel.png"
+        },
+        {
+            "name": "Raging echoes adamant trophy",
+            "image": "Raging_echoes_adamant_trophy.png"
+        },
+        {
+            "name": "Raging echoes dragon trophy",
+            "image": "Raging_echoes_dragon_trophy.png"
+        },
+        {
+            "name": "Raging echoes rune trophy",
+            "image": "Raging_echoes_rune_trophy.png"
+        },
+        {
+            "name": "Rain bow",
+            "image": "Rain_bow.png"
+        },
+        {
+            "name": "Rat pole#Empty",
+            "image": "Rat_pole#Empty.png"
+        },
+        {
+            "name": "Rat pole#Five_rats",
+            "image": "Rat_pole#Five_rats.png"
+        },
+        {
+            "name": "Rat pole#Four_rats",
+            "image": "Rat_pole#Four_rats.png"
+        },
+        {
+            "name": "Rat pole#One_rat",
+            "image": "Rat_pole#One_rat.png"
+        },
+        {
+            "name": "Rat pole#Six_rats",
+            "image": "Rat_pole#Six_rats.png"
+        },
+        {
+            "name": "Rat pole#Three_rats",
+            "image": "Rat_pole#Three_rats.png"
+        },
+        {
+            "name": "Rat pole#Two_rats",
+            "image": "Rat_pole#Two_rats.png"
+        },
+        {
+            "name": "Red salamander",
+            "image": "Red_salamander.png"
+        },
+        {
+            "name": "Rosewood blowpipe",
+            "image": "Rosewood_blowpipe.png"
+        },
+        {
+            "name": "Rune 2h sword",
+            "image": "Rune_2h_sword.png"
+        },
+        {
+            "name": "Rune claws",
+            "image": "Rune_claws.png"
+        },
+        {
+            "name": "Rune felling axe",
+            "image": "Rune_felling_axe.png"
+        },
+        {
+            "name": "Rune halberd",
+            "image": "Rune_halberd.png"
+        },
+        {
+            "name": "Rune spear#(kp)",
+            "image": "Rune_spear#(kp).png"
+        },
+        {
+            "name": "Rune spear#(p)",
+            "image": "Rune_spear#(p).png"
+        },
+        {
+            "name": "Rune spear#(p+)",
+            "image": "Rune_spear#(p+).png"
+        },
+        {
+            "name": "Rune spear#(p++)",
+            "image": "Rune_spear#(p++).png"
+        },
+        {
+            "name": "Rune spear#(unp)",
+            "image": "Rune_spear#(unp).png"
+        },
+        {
+            "name": "Sanguine scythe of vitur#Charged",
+            "image": "Sanguine_scythe_of_vitur#Charged.png"
+        },
+        {
+            "name": "Sanguine scythe of vitur#Uncharged",
+            "image": "Sanguine_scythe_of_vitur#Uncharged.png"
+        },
+        {
+            "name": "Saradomin godsword",
+            "image": "Saradomin_godsword.png"
+        },
+        {
+            "name": "Saradomin godsword (or)",
+            "image": "Saradomin_godsword_(or).png"
+        },
+        {
+            "name": "Saradomin mjolnir",
+            "image": "Saradomin_mjolnir.png"
+        },
+        {
+            "name": "Saradomin sword",
+            "image": "Saradomin_sword.png"
+        },
+        {
+            "name": "Saradomin's blessed sword#Charged",
+            "image": "Saradomin's_blessed_sword#Charged.png"
+        },
+        {
+            "name": "Saradomin's blessed sword#Partially_charged",
+            "image": "Saradomin's_blessed_sword#Partially_charged.png"
+        },
+        {
+            "name": "Scorching bow",
+            "image": "Scorching_bow.png"
+        },
+        {
+            "name": "Scythe (Halloween event)",
+            "image": "Scythe_(Halloween_event).png"
+        },
+        {
+            "name": "Scythe of vitur#Charged",
+            "image": "Scythe_of_vitur#Charged.png"
+        },
+        {
+            "name": "Scythe of vitur#Uncharged",
+            "image": "Scythe_of_vitur#Uncharged.png"
+        },
+        {
+            "name": "Seercull",
+            "image": "Seercull.png"
+        },
+        {
+            "name": "Shadow sword",
+            "image": "Shadow_sword.png"
+        },
+        {
+            "name": "Shattered relics adamant trophy",
+            "image": "Shattered_relics_adamant_trophy.png"
+        },
+        {
+            "name": "Shattered relics dragon trophy",
+            "image": "Shattered_relics_dragon_trophy.png"
+        },
+        {
+            "name": "Shattered relics rune trophy",
+            "image": "Shattered_relics_rune_trophy.png"
+        },
+        {
+            "name": "Shortbow",
+            "image": "Shortbow.png"
+        },
+        {
+            "name": "Signed oak bow",
+            "image": "Signed_oak_bow.png"
+        },
+        {
+            "name": "Silver speedrun trophy",
+            "image": "Silver_speedrun_trophy.png"
+        },
+        {
+            "name": "Skeleton lantern",
+            "image": "Skeleton_lantern.png"
+        },
+        {
+            "name": "Skis",
+            "image": "Skis.png"
+        },
+        {
+            "name": "Sled (2020 Christmas event)",
+            "image": "Sled_(2020_Christmas_event).png"
+        },
+        {
+            "name": "Sled#Unwaxed",
+            "image": "Sled#Unwaxed.png"
+        },
+        {
+            "name": "Sled#Waxed",
+            "image": "Sled#Waxed.png"
+        },
+        {
+            "name": "Soulreaper axe",
+            "image": "Soulreaper_axe.png"
+        },
+        {
+            "name": "Spatula",
+            "image": "Spatula.png"
+        },
+        {
+            "name": "Steel 2h sword",
+            "image": "Steel_2h_sword.png"
+        },
+        {
+            "name": "Steel claws",
+            "image": "Steel_claws.png"
+        },
+        {
+            "name": "Steel felling axe",
+            "image": "Steel_felling_axe.png"
+        },
+        {
+            "name": "Steel halberd",
+            "image": "Steel_halberd.png"
+        },
+        {
+            "name": "Steel spear#(kp)",
+            "image": "Steel_spear#(kp).png"
+        },
+        {
+            "name": "Steel spear#(p)",
+            "image": "Steel_spear#(p).png"
+        },
+        {
+            "name": "Steel spear#(p+)",
+            "image": "Steel_spear#(p+).png"
+        },
+        {
+            "name": "Steel spear#(p++)",
+            "image": "Steel_spear#(p++).png"
+        },
+        {
+            "name": "Steel spear#(unp)",
+            "image": "Steel_spear#(unp).png"
+        },
+        {
+            "name": "Sulphur blades",
+            "image": "Sulphur_blades.png"
+        },
+        {
+            "name": "Swamp lizard",
+            "image": "Swamp_lizard.png"
+        },
+        {
+            "name": "Tecu salamander",
+            "image": "Tecu_salamander.png"
+        },
+        {
+            "name": "Toktz-mej-tal",
+            "image": "Toktz-mej-tal.png"
+        },
+        {
+            "name": "Torag's hammers#(broken)",
+            "image": "Torag's_hammers#(broken).png"
+        },
+        {
+            "name": "Torag's hammers#100",
+            "image": "Torag's_hammers#100.png"
+        },
+        {
+            "name": "Torag's hammers#25",
+            "image": "Torag's_hammers#25.png"
+        },
+        {
+            "name": "Torag's hammers#50",
+            "image": "Torag's_hammers#50.png"
+        },
+        {
+            "name": "Torag's hammers#75",
+            "image": "Torag's_hammers#75.png"
+        },
+        {
+            "name": "Torag's hammers#Undamaged",
+            "image": "Torag's_hammers#Undamaged.png"
+        },
+        {
+            "name": "Tortugan sacred vessel",
+            "image": "Tortugan_sacred_vessel.png"
+        },
+        {
+            "name": "Tortugan vessel",
+            "image": "Tortugan_vessel.png"
+        },
+        {
+            "name": "Toxic blowpipe#Charged",
+            "image": "Toxic_blowpipe#Charged.png"
+        },
+        {
+            "name": "Toxic blowpipe#Empty",
+            "image": "Toxic_blowpipe#Empty.png"
+        },
+        {
+            "name": "Trailblazer adamant trophy",
+            "image": "Trailblazer_adamant_trophy.png"
+        },
+        {
+            "name": "Trailblazer dragon trophy",
+            "image": "Trailblazer_dragon_trophy.png"
+        },
+        {
+            "name": "Trailblazer reloaded adamant trophy",
+            "image": "Trailblazer_reloaded_adamant_trophy.png"
+        },
+        {
+            "name": "Trailblazer reloaded dragon trophy",
+            "image": "Trailblazer_reloaded_dragon_trophy.png"
+        },
+        {
+            "name": "Trailblazer reloaded rune trophy",
+            "image": "Trailblazer_reloaded_rune_trophy.png"
+        },
+        {
+            "name": "Trailblazer rune trophy",
+            "image": "Trailblazer_rune_trophy.png"
+        },
+        {
+            "name": "Training bow",
+            "image": "Training_bow.png"
+        },
+        {
+            "name": "Tumeken's shadow#Charged",
+            "image": "Tumeken's_shadow#Charged.png"
+        },
+        {
+            "name": "Tumeken's shadow#Uncharged",
+            "image": "Tumeken's_shadow#Uncharged.png"
+        },
+        {
+            "name": "Twisted adamant trophy",
+            "image": "Twisted_adamant_trophy.png"
+        },
+        {
+            "name": "Twisted bow",
+            "image": "Twisted_bow.png"
+        },
+        {
+            "name": "Twisted dragon trophy",
+            "image": "Twisted_dragon_trophy.png"
+        },
+        {
+            "name": "Twisted rune trophy",
+            "image": "Twisted_rune_trophy.png"
+        },
+        {
+            "name": "Tzhaar-ket-om",
+            "image": "Tzhaar-ket-om.png"
+        },
+        {
+            "name": "Tzhaar-ket-om (t)",
+            "image": "Tzhaar-ket-om_(t).png"
+        },
+        {
+            "name": "Venator bow#Charged",
+            "image": "Venator_bow#Charged.png"
+        },
+        {
+            "name": "Venator bow#Uncharged",
+            "image": "Venator_bow#Uncharged.png"
+        },
+        {
+            "name": "Verac's flail#(broken)",
+            "image": "Verac's_flail#(broken).png"
+        },
+        {
+            "name": "Verac's flail#100",
+            "image": "Verac's_flail#100.png"
+        },
+        {
+            "name": "Verac's flail#25",
+            "image": "Verac's_flail#25.png"
+        },
+        {
+            "name": "Verac's flail#50",
+            "image": "Verac's_flail#50.png"
+        },
+        {
+            "name": "Verac's flail#75",
+            "image": "Verac's_flail#75.png"
+        },
+        {
+            "name": "Verac's flail#Undamaged",
+            "image": "Verac's_flail#Undamaged.png"
+        },
+        {
+            "name": "Vesta's spear (bh)#Activated",
+            "image": "Vesta's_spear_(bh)#Activated.png"
+        },
+        {
+            "name": "Webweaver bow#Charged",
+            "image": "Webweaver_bow#Charged.png"
+        },
+        {
+            "name": "Webweaver bow#Uncharged",
+            "image": "Webweaver_bow#Uncharged.png"
+        },
+        {
+            "name": "White 2h sword",
+            "image": "White_2h_sword.png"
+        },
+        {
+            "name": "White claws",
+            "image": "White_claws.png"
+        },
+        {
+            "name": "White halberd",
+            "image": "White_halberd.png"
+        },
+        {
+            "name": "Willow comp bow",
+            "image": "Willow_comp_bow.png"
+        },
+        {
+            "name": "Willow longbow",
+            "image": "Willow_longbow.png"
+        },
+        {
+            "name": "Willow shortbow",
+            "image": "Willow_shortbow.png"
+        },
+        {
+            "name": "Yew comp bow",
+            "image": "Yew_comp_bow.png"
+        },
+        {
+            "name": "Yew longbow",
+            "image": "Yew_longbow.png"
+        },
+        {
+            "name": "Yew shortbow",
+            "image": "Yew_shortbow.png"
+        },
+        {
+            "name": "Zamorak godsword",
+            "image": "Zamorak_godsword.png"
+        },
+        {
+            "name": "Zamorak godsword (or)",
+            "image": "Zamorak_godsword_(or).png"
+        },
+        {
+            "name": "Zamorak mjolnir",
+            "image": "Zamorak_mjolnir.png"
+        },
+        {
+            "name": "Zamorakian spear",
+            "image": "Zamorakian_spear.png"
         }
     ],
     "Shield_slot_table": [
