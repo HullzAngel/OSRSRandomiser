@@ -14,6 +14,7 @@
     background-color: #373737;
     margin: 0; /* remove default margin for full-page background */
   }
+  
 
   /* Background image */
   #background {
@@ -97,10 +98,48 @@
     margin-bottom: 20px;
     text-align: center;
   }
+#page-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+#acknowledgment {
+  font-size: 20px;
+  color: yellow;
+  text-align: center;
+  margin: 5px 0 20px 0;
+}
+#acknowledgment a, #youtube-link a {
+  color: white;        /* change link color to white */
+  text-decoration: underline;
+}
+#youtube-link {
+  font-size: 20px;
+  color: lightblue;
+  text-align: center;
+  margin: 5px 0 20px 0;
+}
+
+#youtube-link a {
+  color: lightblue;
+  text-decoration: underline;
+}
 </style>
 </head>
 <body>
+<h1 id="page-title">OSRS Gear Randomizer</h1>
 
+<p id="acknowledgment">
+  Thanks to Robyn for developing the original and supporting this version, and to 
+  <a href="https://www.youtube.com/@LinksOcarina" target="_blank">LinksOcarina</a> & 
+  <a href="https://www.youtube.com/@Rargh" target="_blank">Rargh</a> for popularising the concept of this randomiser.
+</p>
+<p id="youtube-link">
+  Check out the <a href="https://www.youtube.com/@ThenWeFight" target="_blank">ThenWeFight</a> YouTube channel
+</p>
 <h2 id="spinCounter">Total Spins: 0</h2> <!-- NEW -->
 
 <!-- Background -->
