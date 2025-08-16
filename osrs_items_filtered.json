@@ -8610,5 +8610,723 @@
             "name": "Zenyte ring",
             "image": "Zenyte_ring.png"
         }
+    ],
+    "Ammo_slot_table": [
+        {
+            "name": "Adamant arrow#(p++)",
+            "image": "Adamant_arrow#(p++).png"
+        },
+        {
+            "name": "Adamant arrow#(p)",
+            "image": "Adamant_arrow#(p).png"
+        },
+        {
+            "name": "Adamant arrow#(p+)",
+            "image": "Adamant_arrow#(p+).png"
+        },
+        {
+            "name": "Adamant arrow#(unp)",
+            "image": "Adamant_arrow#(unp).png"
+        },
+        {
+            "name": "Adamant bolts#Poison",
+            "image": "Adamant_bolts#Poison.png"
+        },
+        {
+            "name": "Adamant bolts#Poison+",
+            "image": "Adamant_bolts#Poison+.png"
+        },
+        {
+            "name": "Adamant bolts#Poison++",
+            "image": "Adamant_bolts#Poison++.png"
+        },
+        {
+            "name": "Adamant bolts#Unpoisoned",
+            "image": "Adamant_bolts#Unpoisoned.png"
+        },
+        {
+            "name": "Adamant brutal",
+            "image": "Adamant_brutal.png"
+        },
+        {
+            "name": "Adamant fire arrow#Lit",
+            "image": "Adamant_fire_arrow#Lit.png"
+        },
+        {
+            "name": "Adamant fire arrow#Unlit",
+            "image": "Adamant_fire_arrow#Unlit.png"
+        },
+        {
+            "name": "Adamant javelin#Poison",
+            "image": "Adamant_javelin#Poison.png"
+        },
+        {
+            "name": "Adamant javelin#Poison+",
+            "image": "Adamant_javelin#Poison+.png"
+        },
+        {
+            "name": "Adamant javelin#Poison++",
+            "image": "Adamant_javelin#Poison++.png"
+        },
+        {
+            "name": "Adamant javelin#Unpoisoned",
+            "image": "Adamant_javelin#Unpoisoned.png"
+        },
+        {
+            "name": "Amethyst arrow#(p)",
+            "image": "Amethyst_arrow#(p).png"
+        },
+        {
+            "name": "Amethyst arrow#(p+)",
+            "image": "Amethyst_arrow#(p+).png"
+        },
+        {
+            "name": "Amethyst broad bolts",
+            "image": "Amethyst_broad_bolts.png"
+        },
+        {
+            "name": "Amethyst arrow#(p++)",
+            "image": "Amethyst_arrow#(p++).png"
+        },
+        {
+            "name": "Amethyst arrow#(unp)",
+            "image": "Amethyst_arrow#(unp).png"
+        },
+        {
+            "name": "Amethyst fire arrow#Lit",
+            "image": "Amethyst_fire_arrow#Lit.png"
+        },
+        {
+            "name": "Amethyst fire arrow#Unlit",
+            "image": "Amethyst_fire_arrow#Unlit.png"
+        },
+        {
+            "name": "Amethyst javelin#Poison",
+            "image": "Amethyst_javelin#Poison.png"
+        },
+        {
+            "name": "Amethyst javelin#Poison+",
+            "image": "Amethyst_javelin#Poison+.png"
+        },
+        {
+            "name": "Amethyst javelin#Poison++",
+            "image": "Amethyst_javelin#Poison++.png"
+        },
+        {
+            "name": "Amethyst javelin#Unpoisoned",
+            "image": "Amethyst_javelin#Unpoisoned.png"
+        },
+        {
+            "name": "Ancient blessing",
+            "image": "Ancient_blessing.png"
+        },
+        {
+            "name": "Atlatl dart",
+            "image": "Atlatl_dart.png"
+        },
+        {
+            "name": "Barbed bolts",
+            "image": "Barbed_bolts.png"
+        },
+        {
+            "name": "Black brutal",
+            "image": "Black_brutal.png"
+        },
+        {
+            "name": "Bolt rack",
+            "image": "Bolt_rack.png"
+        },
+        {
+            "name": "Bone bolts",
+            "image": "Bone_bolts.png"
+        },
+        {
+            "name": "Broad bolts",
+            "image": "Broad_bolts.png"
+        },
+        {
+            "name": "Bronze arrow#(p)",
+            "image": "Bronze_arrow#(p).png"
+        },
+        {
+            "name": "Bronze arrow#(p+)",
+            "image": "Bronze_arrow#(p+).png"
+        },
+        {
+            "name": "Bronze arrow#(p++)",
+            "image": "Bronze_arrow#(p++).png"
+        },
+        {
+            "name": "Bronze bolts#Poison",
+            "image": "Bronze_bolts#Poison.png"
+        },
+        {
+            "name": "Bronze arrow#(unp)",
+            "image": "Bronze_arrow#(unp).png"
+        },
+        {
+            "name": "Bronze bolts#Poison+",
+            "image": "Bronze_bolts#Poison+.png"
+        },
+        {
+            "name": "Bronze bolts#Poison++",
+            "image": "Bronze_bolts#Poison++.png"
+        },
+        {
+            "name": "Bronze bolts#Unpoisoned",
+            "image": "Bronze_bolts#Unpoisoned.png"
+        },
+        {
+            "name": "Bronze brutal",
+            "image": "Bronze_brutal.png"
+        },
+        {
+            "name": "Bronze fire arrow#Lit",
+            "image": "Bronze_fire_arrow#Lit.png"
+        },
+        {
+            "name": "Bronze fire arrow#Unlit",
+            "image": "Bronze_fire_arrow#Unlit.png"
+        },
+        {
+            "name": "Bronze javelin#Poison",
+            "image": "Bronze_javelin#Poison.png"
+        },
+        {
+            "name": "Bronze javelin#Poison+",
+            "image": "Bronze_javelin#Poison+.png"
+        },
+        {
+            "name": "Bronze javelin#Poison++",
+            "image": "Bronze_javelin#Poison++.png"
+        },
+        {
+            "name": "Bronze javelin#Unpoisoned",
+            "image": "Bronze_javelin#Unpoisoned.png"
+        },
+        {
+            "name": "Diamond bolts",
+            "image": "Diamond_bolts.png"
+        },
+        {
+            "name": "Diamond bolts (e)",
+            "image": "Diamond_bolts_(e).png"
+        },
+        {
+            "name": "Diamond dragon bolts",
+            "image": "Diamond_dragon_bolts.png"
+        },
+        {
+            "name": "Diamond dragon bolts (e)",
+            "image": "Diamond_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Dragon arrow#(p)",
+            "image": "Dragon_arrow#(p).png"
+        },
+        {
+            "name": "Dragon arrow#(p+)",
+            "image": "Dragon_arrow#(p+).png"
+        },
+        {
+            "name": "Dragon arrow#(p++)",
+            "image": "Dragon_arrow#(p++).png"
+        },
+        {
+            "name": "Dragon arrow#(unp)",
+            "image": "Dragon_arrow#(unp).png"
+        },
+        {
+            "name": "Dragon bolts#Poison",
+            "image": "Dragon_bolts#Poison.png"
+        },
+        {
+            "name": "Dragon bolts#Poison+",
+            "image": "Dragon_bolts#Poison+.png"
+        },
+        {
+            "name": "Dragon bolts#Poison++",
+            "image": "Dragon_bolts#Poison++.png"
+        },
+        {
+            "name": "Dragon bolts#Unpoisoned",
+            "image": "Dragon_bolts#Unpoisoned.png"
+        },
+        {
+            "name": "Dragon fire arrow#Lit",
+            "image": "Dragon_fire_arrow#Lit.png"
+        },
+        {
+            "name": "Dragon fire arrow#Unlit",
+            "image": "Dragon_fire_arrow#Unlit.png"
+        },
+        {
+            "name": "Dragon javelin#Poison",
+            "image": "Dragon_javelin#Poison.png"
+        },
+        {
+            "name": "Dragon javelin#Poison+",
+            "image": "Dragon_javelin#Poison+.png"
+        },
+        {
+            "name": "Dragon javelin#Poison++",
+            "image": "Dragon_javelin#Poison++.png"
+        },
+        {
+            "name": "Dragon javelin#Unpoisoned",
+            "image": "Dragon_javelin#Unpoisoned.png"
+        },
+        {
+            "name": "Dragonstone bolts",
+            "image": "Dragonstone_bolts.png"
+        },
+        {
+            "name": "Dragonstone bolts (e)",
+            "image": "Dragonstone_bolts_(e).png"
+        },
+        {
+            "name": "Dragonstone dragon bolts",
+            "image": "Dragonstone_dragon_bolts.png"
+        },
+        {
+            "name": "Dragonstone dragon bolts (e)",
+            "image": "Dragonstone_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Emerald bolts",
+            "image": "Emerald_bolts.png"
+        },
+        {
+            "name": "Emerald bolts (e)",
+            "image": "Emerald_bolts_(e).png"
+        },
+        {
+            "name": "Emerald dragon bolts",
+            "image": "Emerald_dragon_bolts.png"
+        },
+        {
+            "name": "Emerald dragon bolts (e)",
+            "image": "Emerald_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Guam tar",
+            "image": "Guam_tar.png"
+        },
+        {
+            "name": "Harralander tar",
+            "image": "Harralander_tar.png"
+        },
+        {
+            "name": "Holy blessing",
+            "image": "Holy_blessing.png"
+        },
+        {
+            "name": "Honourable blessing",
+            "image": "Honourable_blessing.png"
+        },
+        {
+            "name": "Irit tar",
+            "image": "Irit_tar.png"
+        },
+        {
+            "name": "Iron arrow#(p)",
+            "image": "Iron_arrow#(p).png"
+        },
+        {
+            "name": "Iron arrow#(p+)",
+            "image": "Iron_arrow#(p+).png"
+        },
+        {
+            "name": "Iron arrow#(p++)",
+            "image": "Iron_arrow#(p++).png"
+        },
+        {
+            "name": "Iron arrow#(unp)",
+            "image": "Iron_arrow#(unp).png"
+        },
+        {
+            "name": "Iron bolts#Poison",
+            "image": "Iron_bolts#Poison.png"
+        },
+        {
+            "name": "Iron bolts#Poison+",
+            "image": "Iron_bolts#Poison+.png"
+        },
+        {
+            "name": "Iron bolts#Poison++",
+            "image": "Iron_bolts#Poison++.png"
+        },
+        {
+            "name": "Iron bolts#Unpoisoned",
+            "image": "Iron_bolts#Unpoisoned.png"
+        },
+        {
+            "name": "Iron brutal",
+            "image": "Iron_brutal.png"
+        },
+        {
+            "name": "Iron fire arrow#Lit",
+            "image": "Iron_fire_arrow#Lit.png"
+        },
+        {
+            "name": "Iron fire arrow#Unlit",
+            "image": "Iron_fire_arrow#Unlit.png"
+        },
+        {
+            "name": "Iron javelin#Poison",
+            "image": "Iron_javelin#Poison.png"
+        },
+        {
+            "name": "Iron javelin#Poison++",
+            "image": "Iron_javelin#Poison++.png"
+        },
+        {
+            "name": "Iron javelin#Poison+",
+            "image": "Iron_javelin#Poison+.png"
+        },
+        {
+            "name": "Iron javelin#Unpoisoned",
+            "image": "Iron_javelin#Unpoisoned.png"
+        },
+        {
+            "name": "Jade dragon bolts",
+            "image": "Jade_dragon_bolts.png"
+        },
+        {
+            "name": "Jade dragon bolts (e)",
+            "image": "Jade_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Kebbit bolts",
+            "image": "Kebbit_bolts.png"
+        },
+        {
+            "name": "Long kebbit bolts",
+            "image": "Long_kebbit_bolts.png"
+        },
+        {
+            "name": "Marrentill tar",
+            "image": "Marrentill_tar.png"
+        },
+        {
+            "name": "Mith grapple",
+            "image": "Mith_grapple.png"
+        },
+        {
+            "name": "Mithril arrow#(p)",
+            "image": "Mithril_arrow#(p).png"
+        },
+        {
+            "name": "Mithril arrow#(p+)",
+            "image": "Mithril_arrow#(p+).png"
+        },
+        {
+            "name": "Mithril arrow#(p++)",
+            "image": "Mithril_arrow#(p++).png"
+        },
+        {
+            "name": "Mithril arrow#(unp)",
+            "image": "Mithril_arrow#(unp).png"
+        },
+        {
+            "name": "Mithril bolts#Poison",
+            "image": "Mithril_bolts#Poison.png"
+        },
+        {
+            "name": "Mithril bolts#Poison+",
+            "image": "Mithril_bolts#Poison+.png"
+        },
+        {
+            "name": "Mithril bolts#Poison++",
+            "image": "Mithril_bolts#Poison++.png"
+        },
+        {
+            "name": "Mithril bolts#Unpoisoned",
+            "image": "Mithril_bolts#Unpoisoned.png"
+        },
+        {
+            "name": "Mithril brutal",
+            "image": "Mithril_brutal.png"
+        },
+        {
+            "name": "Mithril fire arrow#Lit",
+            "image": "Mithril_fire_arrow#Lit.png"
+        },
+        {
+            "name": "Mithril fire arrow#Unlit",
+            "image": "Mithril_fire_arrow#Unlit.png"
+        },
+        {
+            "name": "Mithril javelin#Poison",
+            "image": "Mithril_javelin#Poison.png"
+        },
+        {
+            "name": "Mithril javelin#Poison+",
+            "image": "Mithril_javelin#Poison+.png"
+        },
+        {
+            "name": "Mithril javelin#Poison++",
+            "image": "Mithril_javelin#Poison++.png"
+        },
+        {
+            "name": "Mithril javelin#Unpoisoned",
+            "image": "Mithril_javelin#Unpoisoned.png"
+        },
+        {
+            "name": "Moonlight antler bolts",
+            "image": "Moonlight_antler_bolts.png"
+        },
+        {
+            "name": "Onyx bolts",
+            "image": "Onyx_bolts.png"
+        },
+        {
+            "name": "Onyx bolts (e)",
+            "image": "Onyx_bolts_(e).png"
+        },
+        {
+            "name": "Onyx dragon bolts",
+            "image": "Onyx_dragon_bolts.png"
+        },
+        {
+            "name": "Onyx dragon bolts (e)",
+            "image": "Onyx_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Opal bolts",
+            "image": "Opal_bolts.png"
+        },
+        {
+            "name": "Opal bolts (e)",
+            "image": "Opal_bolts_(e).png"
+        },
+        {
+            "name": "Opal dragon bolts",
+            "image": "Opal_dragon_bolts.png"
+        },
+        {
+            "name": "Opal dragon bolts (e)",
+            "image": "Opal_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Peaceful blessing",
+            "image": "Peaceful_blessing.png"
+        },
+        {
+            "name": "Pearl bolts",
+            "image": "Pearl_bolts.png"
+        },
+        {
+            "name": "Pearl bolts (e)",
+            "image": "Pearl_bolts_(e).png"
+        },
+        {
+            "name": "Pearl dragon bolts",
+            "image": "Pearl_dragon_bolts.png"
+        },
+        {
+            "name": "Pearl dragon bolts (e)",
+            "image": "Pearl_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Ruby bolts",
+            "image": "Ruby_bolts.png"
+        },
+        {
+            "name": "Ruby bolts (e)",
+            "image": "Ruby_bolts_(e).png"
+        },
+        {
+            "name": "Ruby dragon bolts",
+            "image": "Ruby_dragon_bolts.png"
+        },
+        {
+            "name": "Ruby dragon bolts (e)",
+            "image": "Ruby_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Rune arrow#(p)",
+            "image": "Rune_arrow#(p).png"
+        },
+        {
+            "name": "Rune arrow#(p+)",
+            "image": "Rune_arrow#(p+).png"
+        },
+        {
+            "name": "Rune arrow#(p++)",
+            "image": "Rune_arrow#(p++).png"
+        },
+        {
+            "name": "Rune brutal",
+            "image": "Rune_brutal.png"
+        },
+        {
+            "name": "Rune arrow#(unp)",
+            "image": "Rune_arrow#(unp).png"
+        },
+        {
+            "name": "Rune fire arrow#Lit",
+            "image": "Rune_fire_arrow#Lit.png"
+        },
+        {
+            "name": "Rune fire arrow#Unlit",
+            "image": "Rune_fire_arrow#Unlit.png"
+        },
+        {
+            "name": "Rune javelin#Poison",
+            "image": "Rune_javelin#Poison.png"
+        },
+        {
+            "name": "Rune javelin#Poison+",
+            "image": "Rune_javelin#Poison+.png"
+        },
+        {
+            "name": "Rune javelin#Poison++",
+            "image": "Rune_javelin#Poison++.png"
+        },
+        {
+            "name": "Rune javelin#Unpoisoned",
+            "image": "Rune_javelin#Unpoisoned.png"
+        },
+        {
+            "name": "Runite bolts#Poison",
+            "image": "Runite_bolts#Poison.png"
+        },
+        {
+            "name": "Runite bolts#Poison+",
+            "image": "Runite_bolts#Poison+.png"
+        },
+        {
+            "name": "Runite bolts#Poison++",
+            "image": "Runite_bolts#Poison++.png"
+        },
+        {
+            "name": "Sapphire bolts",
+            "image": "Sapphire_bolts.png"
+        },
+        {
+            "name": "Runite bolts#Unpoisoned",
+            "image": "Runite_bolts#Unpoisoned.png"
+        },
+        {
+            "name": "Sapphire bolts (e)",
+            "image": "Sapphire_bolts_(e).png"
+        },
+        {
+            "name": "Sapphire dragon bolts",
+            "image": "Sapphire_dragon_bolts.png"
+        },
+        {
+            "name": "Sapphire dragon bolts (e)",
+            "image": "Sapphire_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Silver bolts#Poison",
+            "image": "Silver_bolts#Poison.png"
+        },
+        {
+            "name": "Silver bolts#Poison+",
+            "image": "Silver_bolts#Poison+.png"
+        },
+        {
+            "name": "Silver bolts#Poison++",
+            "image": "Silver_bolts#Poison++.png"
+        },
+        {
+            "name": "Silver bolts#Unpoisoned",
+            "image": "Silver_bolts#Unpoisoned.png"
+        },
+        {
+            "name": "Steel arrow#(p)",
+            "image": "Steel_arrow#(p).png"
+        },
+        {
+            "name": "Steel arrow#(p++)",
+            "image": "Steel_arrow#(p++).png"
+        },
+        {
+            "name": "Steel arrow#(p+)",
+            "image": "Steel_arrow#(p+).png"
+        },
+        {
+            "name": "Steel arrow#(unp)",
+            "image": "Steel_arrow#(unp).png"
+        },
+        {
+            "name": "Steel bolts#Poison",
+            "image": "Steel_bolts#Poison.png"
+        },
+        {
+            "name": "Steel bolts#Poison+",
+            "image": "Steel_bolts#Poison+.png"
+        },
+        {
+            "name": "Steel bolts#Poison++",
+            "image": "Steel_bolts#Poison++.png"
+        },
+        {
+            "name": "Steel bolts#Unpoisoned",
+            "image": "Steel_bolts#Unpoisoned.png"
+        },
+        {
+            "name": "Steel brutal",
+            "image": "Steel_brutal.png"
+        },
+        {
+            "name": "Steel fire arrow#Lit",
+            "image": "Steel_fire_arrow#Lit.png"
+        },
+        {
+            "name": "Steel fire arrow#Unlit",
+            "image": "Steel_fire_arrow#Unlit.png"
+        },
+        {
+            "name": "Steel javelin#Poison",
+            "image": "Steel_javelin#Poison.png"
+        },
+        {
+            "name": "Steel javelin#Poison+",
+            "image": "Steel_javelin#Poison+.png"
+        },
+        {
+            "name": "Steel javelin#Poison++",
+            "image": "Steel_javelin#Poison++.png"
+        },
+        {
+            "name": "Steel javelin#Unpoisoned",
+            "image": "Steel_javelin#Unpoisoned.png"
+        },
+        {
+            "name": "Sunlight antler bolts",
+            "image": "Sunlight_antler_bolts.png"
+        },
+        {
+            "name": "Tarromin tar",
+            "image": "Tarromin_tar.png"
+        },
+        {
+            "name": "Topaz bolts",
+            "image": "Topaz_bolts.png"
+        },
+        {
+            "name": "Topaz bolts (e)",
+            "image": "Topaz_bolts_(e).png"
+        },
+        {
+            "name": "Topaz dragon bolts",
+            "image": "Topaz_dragon_bolts.png"
+        },
+        {
+            "name": "Topaz dragon bolts (e)",
+            "image": "Topaz_dragon_bolts_(e).png"
+        },
+        {
+            "name": "Unholy blessing",
+            "image": "Unholy_blessing.png"
+        },
+        {
+            "name": "War blessing",
+            "image": "War_blessing.png"
+        }
     ]
 }
