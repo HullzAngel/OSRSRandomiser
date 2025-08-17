@@ -352,10 +352,11 @@ function initButtons() {
       };
       img.src = imgPath;
 
-      //btn.title = getStatsTooltip(item);
-
-      // --- Update totals each time a slot changes ---
+      // Update totals
       updateStatTotals();
+
+      // ✅ Update left column immediately on click
+      updateLeftColumnBox(item);
     });
 
     btn.addEventListener("mouseover", () => {
@@ -368,6 +369,7 @@ function initButtons() {
     });
   });
 }
+
 
 function updateLeftColumnBox(item) {
   const numbers = document.querySelectorAll("#left-column-box .stat-num");
