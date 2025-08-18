@@ -382,12 +382,15 @@ function updateLeftColumnBox(item) {
   const defenceStats = ["Stab", "Slash", "Crush", "Magic", "Ranged"];
   const otherStats = ["Strength", "Ranged Strength", "Magic Damage", "Prayer"];
 
+  const atk = item?.stats?.["Attack bonuses"] || {};
+  const def = item?.stats?.["Defence bonuses"] || {};
+  const oth = item?.stats?.["Other bonuses"] || {};
+
   let index = 0;
 
   attackStats.forEach(stat => {
     if (numbers[index]) {
-      const atk = item?.stats?.["Attack bonuses"] || {};
-      let raw = atk[stat] || 0;
+      let raw = atk[stat] ?? 0;
       numbers[index].textContent = parseInt(raw.toString().replace(/[^0-9-]/g, "")) || 0;
     }
     index++;
@@ -395,8 +398,7 @@ function updateLeftColumnBox(item) {
 
   defenceStats.forEach(stat => {
     if (numbers[index]) {
-      const def = item?.stats?.["Defence bonuses"] || {};
-      let raw = def[stat] || 0;
+      let raw = def[stat] ?? 0;  // ✅ now correctly from Defence bonuses
       numbers[index].textContent = parseInt(raw.toString().replace(/[^0-9-]/g, "")) || 0;
     }
     index++;
@@ -404,9 +406,7 @@ function updateLeftColumnBox(item) {
 
   otherStats.forEach(stat => {
     if (numbers[index]) {
-      const oth = item?.stats?.["Other bonuses"] || {};
-      let raw = oth[stat] || 0;
-
+      let raw = oth[stat] ?? 0;
       if (stat === "Magic Damage") {
         numbers[index].textContent = raw.toString().replace(/[^0-9-]/g, "") + "%";
       } else {
