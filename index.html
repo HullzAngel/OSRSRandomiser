@@ -378,24 +378,29 @@ function updateLeftColumnBox(item) {
   // Update item name
   nameSpan.textContent = item ? item.name : "";
 
+  // Define categories to mirror right side retrieval
   const attackStats = ["Stab", "Slash", "Crush", "Magic", "Ranged"];
   const defenceStats = ["Stab", "Slash", "Crush", "Magic", "Ranged"];
   const otherStats = ["Strength", "Ranged Strength", "Magic Damage", "Prayer"];
 
-  const allStats = [attackStats, defenceStats, otherStats];
+  const atk = item?.stats?.["Attack bonuses"] || {};
+  const def = item?.stats?.["Defence bonuses"] || {};
+  const oth = item?.stats?.["Other bonuses"] || {};
+
+  const categories = [atk, def, oth];
+  const statGroups = [attackStats, defenceStats, otherStats];
 
   let index = 0;
-
-  allStats.forEach(statGroup => {
-    statGroup.forEach(stat => {
+  statGroups.forEach((group, g) => {
+    group.forEach(stat => {
       if (numbers[index]) {
         let value = "";
         if (item) {
-          if (attackStats.includes(stat)) value = item.stats["Attack bonuses"]?.[stat] || 0;
-          else if (defenceStats.includes(stat)) value = item.stats["Defence bonuses"]?.[stat] || 0;
-          else if (otherStats.includes(stat)) value = item.stats["Other bonuses"]?.[stat] || 0;
-
-          if (stat === "Magic Damage") value = value.toString().replace('%','') + "%";
+          let raw = categories[g][stat] ?? 0;
+          if (stat === "Magic Damage") {
+            raw = raw.toString().replace(/[^0-9-]/g, "") + "%"; // clean + add %
+          }
+          value = raw;
         }
         numbers[index].textContent = value;
       }
