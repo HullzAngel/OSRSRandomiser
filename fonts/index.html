@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OSRS Gear Randomizer</title>
+<style>
+  body {
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #373737;
+    margin: 0;
+  }
+
+  #page-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+
+  #acknowledgment, #youtube-link {
+    font-size: 18px;
+    text-align: center;
+    margin: 5px 0 15px 0;
+  }
+
+  #acknowledgment a { color: white; text-decoration: underline; }
+  #youtube-link a { color: lightblue; text-decoration: underline; }
+
+  #spinCounter {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .main-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 33%; /* each column takes one-third of available width */
+    box-sizing: border-box;
+  }
+
+.center-column {
+  display: flex;
+  justify-content: center; /* center the background-container inside the column */
+  width: 33.33%; /* keep one-third of the page */
+}
+
+#background-container {
+  position: relative;
+  width: 380px;
+  height: 400px;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  height: 400px;
+  background-image: url('custom_images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+button.slot-btn {
+  position: absolute; /* relative to background-container */
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+button.slot-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* Right column box */
+#right-column-box {
+  background-color: #4a4a4a;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+#right-column-box .bold {
+  font-weight: bold;
+}
+
+#left-column-box {
+  background-color: #4a4a4a;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+#left-column-box .bold {
+  font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+<h1 id="page-title">OSRS Gear Randomiser</h1>
+
+<p id="acknowledgment">
+  Thanks to Robyn for developing the original and supporting this version, and to 
+  <a href="https://www.youtube.com/@LinksOcarina" target="_blank">LinksOcarina</a> & 
+  <a href="https://www.youtube.com/@Rargh" target="_blank">Rargh</a> for popularising the concept of this randomiser.
+</p>
+<p id="youtube-link">
+  Check out the <a href="https://www.youtube.com/@ThenWeFight" target="_blank">ThenWeFight</a> YouTube channel
+</p>
+<h2 id="spinCounter">Total Spins: 0</h2>
+
+<div class="main-row">
+  <div class="column" id="left-column">
+    <div id="left-column-box">
+      <span class="bold" style="font-size: 20px; display: block; margin-bottom: 10px;">Item Stats</span>
+
+      <!-- Item name goes here -->
+      <span id="left-item-name" class="bold" style="font-size: 18px; display: block; margin-bottom: 5px; min-height: 24px;"></span>
+
+
+      <span class="bold">Attack</span>
+      <span>Stab: <span class="stat-num"></span></span>
+      <span>Slash: <span class="stat-num"></span></span>
+      <span>Crush: <span class="stat-num"></span></span>
+      <span>Magic: <span class="stat-num"></span></span>
+      <span>Ranged: <span class="stat-num"></span></span>
+
+      <span class="bold">Defence</span>
+      <span>Stab: <span class="stat-num"></span></span>
+      <span>Slash: <span class="stat-num"></span></span>
+      <span>Crush: <span class="stat-num"></span></span>
+      <span>Magic: <span class="stat-num"></span></span>
+      <span>Ranged: <span class="stat-num"></span></span>
+
+      <span class="bold">Other Bonuses</span>
+      <span>Strength: <span class="stat-num"></span></span>
+      <span>Ranged Strength: <span class="stat-num"></span></span>
+      <span>Magic Damage: <span class="stat-num"></span></span>
+      <span>Prayer: <span class="stat-num"></span></span>
+    </div>
+  </div>
+
+<div class="column center-column">
+  <div id="background-container">
+    <div id="background"></div>
+
+    <!-- Buttons positioned relative to the background -->
+    <button id="Head_slot_table" class="slot-btn" style="top:8px; left:160px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Cape_slot_table" class="slot-btn" style="top:86px; left:78px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Amulet_slot_table" class="slot-btn" style="top:86px; left:160px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Ammo_slot_table" class="slot-btn" style="top:86px; left:242px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Weapon_slot_table" class="slot-btn" style="top:164px; left:48px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Body_slot_table" class="slot-btn" style="top:164px; left:160px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Shield_slot_table" class="slot-btn" style="top:164px; left:272px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Legs_slot_table" class="slot-btn" style="top:244px; left:160px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Gloves_slot_table" class="slot-btn" style="top:325px; left:48px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Boots_slot_table" class="slot-btn" style="top:325px; left:160px;">
+      <img src="custom_images/default.png">
+    </button>
+    <button id="Ring_slot_table" class="slot-btn" style="top:325px; left:272px;">
+      <img src="custom_images/default.png">
+    </button>
+  </div>
+</div>
+  <div class="column" id="right-column">
+    <div id="right-column-box">
+      <span class="bold" style="font-size: 20px; text-align: left; display: block; margin-bottom: 10px;">
+    Equipment Stats
+      </span>
+      <span class="bold">Attack</span>
+      <span>Stab</span>
+      <span>Slash</span>
+      <span>Crush</span>
+      <span>Magic</span>
+      <span>Ranged</span>
+
+      <span class="bold">Defence</span>
+      <span>Stab</span>
+      <span>Slash</span>
+      <span>Crush</span>
+      <span>Magic</span>
+      <span>Ranged</span>
+
+      <span class="bold">Other Bonuses</span>
+      <span>Strength</span>
+      <span>Ranged Strength</span>
+      <span>Magic Damage</span>
+      <span>Prayer</span>
+    </div>
+  </div>
+</div>
+
+<script>
+// Layout and slot names
+const slotNames = {
+  Head_slot_table: "Head",
+  Body_slot_table: "Body",
+  Legs_slot_table: "Legs",
+  Weapon_slot_table: "Weapon",
+  Shield_slot_table: "Shield",
+  Cape_slot_table: "Cape",
+  Gloves_slot_table: "Gloves",
+  Boots_slot_table: "Boots",
+  Amulet_slot_table: "Amulet",
+  Ring_slot_table: "Ring",
+  Ammo_slot_table: "Ammo"
+};
+
+// Load JSON
+let itemsData = {};
+fetch('osrs_items_detailed.json')
+  .then(res => res.json())
+  .then(data => {
+    itemsData = data;
+    initButtons();
+  })
+  .catch(err => console.error("Failed to load JSON:", err));
+
+const missingImages = new Set();
+let spinCount = 0; // Track spins
+
+
+
+// --- New function to update totals ---
+function updateStatTotals() {
+  const totals = {
+    attack: { Stab: 0, Slash: 0, Crush: 0, Magic: 0, Ranged: 0 },
+    defence: { Stab: 0, Slash: 0, Crush: 0, Magic: 0, Ranged: 0 },
+    other: { Strength: 0, "Ranged Strength": 0, "Magic Damage": 0, Prayer: 0 }
+  };
+
+  Object.keys(slotNames).forEach(slot => {
+    const item = document.getElementById(slot).currentItem;
+    if (!item || !item.stats) return;
+
+    const atk = item.stats["Attack bonuses"] || {};
+    const def = item.stats["Defence bonuses"] || {};
+    const oth = item.stats["Other bonuses"] || {};
+
+    Object.keys(totals.attack).forEach(stat => {
+      totals.attack[stat] += parseInt((atk[stat] || 0).toString().replace(/[^0-9-]/g, "")) || 0;
+    });
+
+    Object.keys(totals.defence).forEach(stat => {
+      totals.defence[stat] += parseInt((def[stat] || 0).toString().replace(/[^0-9-]/g, "")) || 0;
+    });
+
+    Object.keys(totals.other).forEach(stat => {
+      totals.other[stat] += parseInt((oth[stat] || 0).toString().replace(/[^0-9-]/g, "")) || 0;
+    });
+  });
+
+  const box = document.getElementById("right-column-box");
+
+  // Attack stats
+  const attackSpans = box.querySelectorAll("span:nth-of-type(n+3):nth-of-type(-n+7)");
+  ["Stab","Slash","Crush","Magic","Ranged"].forEach((stat, i) => {
+    attackSpans[i].textContent = stat + ": " + totals.attack[stat];
+  });
+
+  // Defence stats
+  const defenceSpans = box.querySelectorAll("span:nth-of-type(n+9):nth-of-type(-n+13)");
+  ["Stab","Slash","Crush","Magic","Ranged"].forEach((stat, i) => {
+    defenceSpans[i].textContent = stat + ": " + totals.defence[stat];
+  });
+
+  // Other bonuses
+  const otherSpans = box.querySelectorAll("span:nth-of-type(n+15):nth-of-type(-n+18)");
+  ["Strength","Ranged Strength","Magic Damage","Prayer"].forEach((stat, i) => {
+    otherSpans[i].textContent = stat + ": " + totals.other[stat] + (stat === "Magic Damage" ? "%" : "");
+  });
+}
+
+
+// --- Button initialization ---
+function initButtons() {
+  Object.keys(slotNames).forEach(slot => {
+    const btn = document.getElementById(slot);
+    const img = btn.querySelector("img");
+
+    // Initialize a property to track the currently displayed item
+    btn.currentItem = null;
+
+    btn.addEventListener("click", () => {
+      spinCount++;
+      document.getElementById("spinCounter").textContent = "Total Spins: " + spinCount;
+
+      const items = itemsData[slot];
+      if (!items || items.length === 0) return;
+
+      const item = items[Math.floor(Math.random() * items.length)];
+      btn.currentItem = item; // store the current item
+
+      const imgPath = "osrs_item_images/" + encodeURIComponent(item.image);
+      img.onerror = () => {
+        if (!missingImages.has(item.image)) {
+          console.warn("Image not found:", item.image);
+          missingImages.add(item.image);
+        }
+        img.src = "custom_images/default.png";
+      };
+      img.src = imgPath;
+
+      // Update totals
+      updateStatTotals();
+
+      // ✅ Update left column immediately on click
+      updateLeftColumnBox(item);
+    });
+
+    btn.addEventListener("mouseover", () => {
+      if (!btn.currentItem) return;
+      updateLeftColumnBox(btn.currentItem);
+    });
+
+    btn.addEventListener("mouseout", () => {
+      updateLeftColumnBox(null); // clear stats
+    });
+  });
+}
+
+
+function updateLeftColumnBox(item) {
+  const numbers = document.querySelectorAll("#left-column-box .stat-num");
+  const nameSpan = document.getElementById("left-item-name");
+
+  // Update item name
+  nameSpan.textContent = item ? item.name : "";
+
+  const attackStats = ["Stab", "Slash", "Crush", "Magic", "Ranged"];
+  const defenceStats = ["Stab", "Slash", "Crush", "Magic", "Ranged"];
+  const otherStats = ["Strength", "Ranged Strength", "Magic Damage", "Prayer"];
+
+  const atk = item?.stats?.["Attack bonuses"] || {};
+  const def = item?.stats?.["Defence bonuses"] || {};
+  const oth = item?.stats?.["Other bonuses"] || {};
+
+  let index = 0;
+
+  attackStats.forEach(stat => {
+    if (numbers[index]) {
+      let raw = atk[stat] ?? 0;
+      numbers[index].textContent = parseInt(raw.toString().replace(/[^0-9-]/g, "")) || 0;
+    }
+    index++;
+  });
+
+  defenceStats.forEach(stat => {
+    if (numbers[index]) {
+      let raw = def[stat] ?? 0;  // ✅ now correctly from Defence bonuses
+      numbers[index].textContent = parseInt(raw.toString().replace(/[^0-9-]/g, "")) || 0;
+    }
+    index++;
+  });
+
+  otherStats.forEach(stat => {
+    if (numbers[index]) {
+      let raw = oth[stat] ?? 0;
+      if (stat === "Magic Damage") {
+        numbers[index].textContent = raw.toString().replace(/[^0-9-]/g, "") + "%";
+      } else {
+        numbers[index].textContent = parseInt(raw.toString().replace(/[^0-9-]/g, "")) || 0;
+      }
+    }
+    index++;
+  });
+}
+
+</script>
+</body>
+</html>
