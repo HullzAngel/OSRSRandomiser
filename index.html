@@ -88,20 +88,31 @@ button.slot-btn {
   padding: 0;
   box-sizing: border-box;
 
-  /* Remove default button styling */
+  /* Remove all default button styling */
   border: 0;             /* no border by default */
   outline: none;          /* no focus outline */
   box-shadow: none;       /* remove any default shadow */
 }
+  /* Remove weird black effect when clicking/focusing buttons */
+button.slot-btn:focus,
+button.slot-btn:active {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+/* Images inside buttons */
 button.slot-btn img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: block;       /* remove any inline spacing artifacts */
+  pointer-events: none; /* avoid image interfering with clicks */
 }
 /* Highlight for last spun slot */
 .slot-highlight {
-  border: 2px solid yellow;
+  border: 3px solid yellow; /* slightly thicker for clarity */
   border-radius: 8px;
+  box-shadow: 0 0 8px yellow; /* subtle glow for better visibility */
 }
 /* Free spin button */
 #freeSpinBtn {
