@@ -110,9 +110,19 @@ button.slot-btn img {
 }
 /* Highlight for last spun slot */
 .slot-highlight {
-  border: 3px solid yellow; /* slightly thicker for clarity */
+  position: relative; /* make pseudo-element relative to button */
+}
+.slot-highlight::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border: 3px solid yellow;
   border-radius: 8px;
-  box-shadow: 0 0 8px yellow; /* subtle glow for better visibility */
+  pointer-events: none; /* so it doesn’t block clicks */
+  z-index: 10; /* make sure it’s on top */
 }
 /* Free spin button */
 #freeSpinBtn {
