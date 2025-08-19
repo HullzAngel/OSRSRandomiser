@@ -268,7 +268,7 @@ const slotNames = {
 
 // Load JSON
 let itemsData = {};
-fetch('osrs_items_detailed.json')
+fetch('osrs_items_statsonly.json')
   .then(res => res.json())
   .then(data => {
     itemsData = data;
